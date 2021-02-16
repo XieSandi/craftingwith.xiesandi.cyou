@@ -1,0 +1,11 @@
+Play : 1030, -350 // awal : 1030, 170
+menu atas : 1030, -210 // awal : 1030, 310
+demo : 1030, -490 // awal : 1030, 30
+tutor : 1030, -240 // awal : 1030, 280
+credits : 1030, -130 // awal : 1030, 390
+
+menu bawah : 1030, 410 // awal 1030, 930
+papaer : 1030, 260 // awal 1030, 780
+drawing : 1030, 370 // awal 1030, 890
+comming : 1030, 490 // awal 1030, 1010
+back : 1030, 610 // awal 1030, 1130
