@@ -9,3 +9,19 @@ papaer : 1030, 260 // awal 1030, 780
 drawing : 1030, 370 // awal 1030, 890
 comming : 1030, 490 // awal 1030, 1010
 back : 1030, 610 // awal 1030, 1130
+
+lvlBG 420, 310 // awal 420, -310
+1 190, 130 // awal 190, -490
+2 340, 130 // awal 340, -490
+lock 500, 130 // awal 500, -490
+close 420, 470 // awal 420, -140
+
+LVL-GUI
+footer 640, 560 // awal 640, 780
+arrow 640, 460 // awal 640, 680
+tools 1 190, 600 // awal 190, 820
+tools 2 370, 600 // awal 370, 820
+tools 3 550, 600 // awal 550, 820
+tools 4 730, 600 // awal 730, 820
+tools 5 910, 600 // awal 910, 820
+tools 6 1090, 600 // awal 1090, 820
