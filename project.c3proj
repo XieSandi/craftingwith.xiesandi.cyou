@@ -1,0 +1,243 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 23404,
+	"name": "Craftingwith",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		}
+	],
+	"uniqueId": "0ufpw4l8dpo",
+	"objectTypes": {
+		"items": [
+			"Mouse",
+			"bg",
+			"menubg",
+			"credits",
+			"tutorial",
+			"play",
+			"DemoVersion",
+			"menubg2",
+			"papercraft",
+			"drawing",
+			"cs",
+			"back",
+			"lvlBG",
+			"lvl1",
+			"lvl2",
+			"lvl3",
+			"lvl4",
+			"lock",
+			"Audio",
+			"Browser",
+			"close"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"MainMenu",
+			"lvl"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"lvl",
+			"MainMenu"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 423266624219336,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 384569708497944,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 727475608209771,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 710432514199592,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 357079339085452,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 650274412177346,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 385156602422484,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "XieSandi",
+		"authorEmail": "hello@xiesandi.cyou",
+		"authorWebsite": "https://xiesandi.cyou",
+		"appId": "cyou.xiesandi.craftingwith",
+		"pixelRounding": false,
+		"useLoaderLayout": true,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useHighDpi": true,
+		"orientations": "landscape",
+		"enableWebGL": true,
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"clearBackground": true,
+		"enhancedAccelerationPrecision": true,
+		"cordovaiOSScheme": "app"
+	},
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
+	"firstLayout": "MainMenu"
+}

@@ -1,0 +1,43 @@
+{
+	"name": "menubg2",
+	"plugin-id": "Sprite",
+	"sid": 166866591802550,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 532126483445100
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 379,
+						"height": 616,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6152826,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 709792870036295,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

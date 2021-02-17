@@ -1,0 +1,527 @@
+{
+	"name": "MainMenu",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "lvl",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 756126114916274
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Main Menu",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 342691824577727,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "play"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-position",
+							"objectClass": "menubg",
+							"sid": 974586599296904,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "-190",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "play",
+							"sid": 176272925633587,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "-350",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "tutorial",
+							"sid": 583485588481562,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "-240",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "DemoVersion",
+							"sid": 690446384836918,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "-490",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "credits",
+							"sid": 737832024770359,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "-130",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "menubg2",
+							"sid": 154921761772674,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "430",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "papercraft",
+							"sid": 770510348442519,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "260 ",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "drawing",
+							"sid": 482834383952430,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "370",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "cs",
+							"sid": 212624142743807,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "490",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "back",
+							"sid": 326362405202765,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "610",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 443336406319819
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 820079502420092,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "tutorial"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "open-url-in-new-window",
+							"objectClass": "Browser",
+							"sid": 607528241104231,
+							"parameters": {
+								"url": "\"http://\"",
+								"tag": "\"Tutorial\""
+							}
+						}
+					],
+					"sid": 768502584362679
+				}
+			],
+			"sid": 623304783667599
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Play Menu",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 837749604527754,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "papercraft"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-position",
+							"objectClass": "lvlBG",
+							"sid": 970270421287973,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "420",
+								"y": "310",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "lvl1",
+							"sid": 249055918682455,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "190 ",
+								"y": "130",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "lvl2",
+							"sid": 104053642426806,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "340",
+								"y": "130",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "lock",
+							"sid": 973486959848653,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "500",
+								"y": "130",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "close",
+							"sid": 935177336921090,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "420",
+								"y": "470",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 904143568759999
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 829855150668129,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "back"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-position",
+							"objectClass": "menubg",
+							"sid": 998970321893269,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "310",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "play",
+							"sid": 758021564270583,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "170",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "tutorial",
+							"sid": 581023532018790,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "280",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "DemoVersion",
+							"sid": 949206554800342,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "30",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "credits",
+							"sid": 669706704864343,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "390",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "menubg2",
+							"sid": 361083616575490,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "930",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "papercraft",
+							"sid": 913436795807814,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "780",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "drawing",
+							"sid": 348375906311524,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "890",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "cs",
+							"sid": 381342702455827,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "1010",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "back",
+							"sid": 939932624381320,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "1030",
+								"y": "1130",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 226056538659514
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 642146876025436,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "close"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-position",
+							"objectClass": "lvlBG",
+							"sid": 791243983402117,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "420",
+								"y": "-310",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "lvl1",
+							"sid": 296087302691494,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "190 ",
+								"y": "-490",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "lvl2",
+							"sid": 263930352893580,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "340",
+								"y": "-490",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "lock",
+							"sid": 514584298985433,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "500",
+								"y": "-490",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "close",
+							"sid": 473569867611528,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "420",
+								"y": "-140",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 963718259587216
+				}
+			],
+			"sid": 638344996326456
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Level",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 359258053721980,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "lvl1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 358972657315609,
+							"parameters": {
+								"layout": "lvl"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 634098124274629,
+							"parameters": {
+								"variable": "lvl",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 971309956790515
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 507446839697780,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "lvl2"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 852821697946366
+				}
+			],
+			"sid": 270383102567943
+		}
+	],
+	"sid": 207231253861749
+}
