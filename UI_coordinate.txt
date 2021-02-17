@@ -25,3 +25,16 @@ tools 3 550, 600 // awal 550, 820
 tools 4 730, 600 // awal 730, 820
 tools 5 910, 600 // awal 910, 820
 tools 6 1090, 600 // awal 1090, 820
+next 610, 360 // awal 610, -70
+
+lvl 1
+paus 620, 330
+mata 880, 350
+sirip 410, 330
+water 650, 320
+
+lvl 1 - 4
+paus 1370, 480
+splash 1110, 540
+SHADOW 1150, 530
+sirip 1130, 520
