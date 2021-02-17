@@ -6,6 +6,7 @@ Assets :
 - 	Main Menu Background  : @freepik 
 - 	Game Level Background : @pikisuperstar via Freepik
 -  Tools Illustration    : @freepik
+-  Fish Illustration     : @Terdpongvector via Freepik
 -  Other Else            : @XieSandi (Hey , it's me!)
 
 Audio :
